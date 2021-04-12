@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Camera</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <p>Select photo</p>
+  <div class="upload" (click)="getPhoto()">
+    <form action="/upload" #dropzone></form>
+    <div id="previews"></div>
+  </div>
+</ion-content>

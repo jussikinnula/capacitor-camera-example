@@ -1,0 +1,7 @@
+{
+  "name": "capacitor-camera-example",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
